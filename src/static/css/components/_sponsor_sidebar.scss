@@ -1,0 +1,21 @@
+.sponsor-content {
+    @include make-md-column(9);
+}
+.sponsor-sidebar {
+    @include make-md-column(3);
+
+    &__sec-title {
+        color: #555555;
+    }
+
+    &__sec {
+        @include make-row();
+    }
+
+    &__item {
+        @include make-sm-column(6);
+        @include make-lg-column(12);
+        @include make-md-column(12);
+    }
+}
+
